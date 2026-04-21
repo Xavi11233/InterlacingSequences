@@ -5,9 +5,9 @@ Various functions are defined, some of which find terms of the 2 and 3 dimension
 
 ```python
 >>> iterated_sum1 = sum(first_r_terms_sequence_powers(j=1, r=10000, n=4))
->>> print(Fraction(iterated_sum).limit_denominator(max_denominator=10000000))
+>>> print(Fraction(iterated_sum1).limit_denominator(max_denominator=10000000))
 >>> iterated_sum2 = sum(first_r_terms_sequence_powers(j=2, r=10000, n=4))
->>> print(Fraction(iterated_sum).limit_denominator(max_denominator=10000000))
+>>> print(Fraction(iterated_sum2).limit_denominator(max_denominator=10000000))
 17060625/994004
 2575625/994004
 ```
