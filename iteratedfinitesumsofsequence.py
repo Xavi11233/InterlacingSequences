@@ -70,6 +70,3 @@ def first_r_terms_sequence2(F_0, F_1, F_2, r):
         F_r = interlacing_fib_sequences2(F_0, F_1, F_2, i)
         sequence.append(F_r)
     return sequence
-
-iterated_sum = sum(first_r_terms_sequence_powers(2, 1000, 4))
-print(Fraction(iterated_sum).limit_denominator(max_denominator=1000000))
